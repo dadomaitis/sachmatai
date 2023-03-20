@@ -1,0 +1,34 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div table:nth-child(odd) {
+    border-collapse: collapse;
+    border: 5px solid  green;
+    margin: 10px;
+}
+div table:nth-child(even) {
+    border-collapse: collapse;
+    border: 5px solid orangered;
+    margin: 10px;
+}
+
+div td {
+    background: orangered;
+    padding: 20px;
+    
+}
+div th {
+    background: green;
+    padding: 20px;
+}
+th {
+    background: orangered;
+}
+td {
+    background: green ;
+}
